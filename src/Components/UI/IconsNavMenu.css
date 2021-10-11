@@ -1,0 +1,20 @@
+
+
+.icons-nav{
+    transition: all 0.2s ease;
+    opacity: 1;
+}
+
+.icons-nav ul li{
+    border: none;
+}
+
+.icons-nav ul li i{
+    font-size: 2rem;
+}
+
+.icons-nav ul li a:hover::after{
+    border: none;
+    width: 0;
+}
+

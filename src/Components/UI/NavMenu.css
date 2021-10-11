@@ -1,0 +1,111 @@
+header{
+    width: 100px;
+    height: 100vh;
+    background: #37384f;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+}
+
+.toggle-menu{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background: rgb(55,56,79);
+    top: 50%;
+    right: -25px;
+    outline: none;
+    border: none;
+    clip-path: polygon(0 0, 0% 100%, 100% 50%);
+    cursor: pointer;
+}
+
+.selected{
+    width: 200px;
+}
+
+
+.my-profile-container{
+    width: 200px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ .my-profile-container h5{
+    color: #EAF0CE;
+    font-weight: normal;
+ }
+
+nav{
+    width: 200px;
+    height: 28vh; 
+ 
+}
+
+nav ul{
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ul li  {
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #535676;
+    position: relative;
+}
+
+nav ul li a{
+    transition: all 0.5s ease;
+    text-decoration: none;
+    color: #EAF0CE;
+}
+
+nav ul li a:after{
+    width: 0;
+    height: 0.5px;
+    position: absolute;
+    content: "";
+    background-color: #EE964B;
+    bottom:-0.8px;
+    left:0;
+    transition: all 0.5s ease;
+}   
+nav ul li a:hover{
+    color: #EE964B;
+}
+
+
+nav ul li a:hover:after{
+    width: 100%;
+    border-bottom: 1px solid #EE964B;
+}
+
+
+nav ul li i{
+    margin-right: 10px;
+}
+
+
+
+.my-profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-bottom: 5px;
+}
+
+ 
+
